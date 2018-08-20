@@ -12,13 +12,6 @@ Webspark 1.55 (Oregon) release, 2018-07-27
 
 - Web standards components in Webspark
 
-    * ASU News & Events (v3.0-alpha1) - PLEASE READ THE FOLLOWING!
-        * This is an early alpha release of the replacement for the existing Webspark News & Events modules.
-        * Do not use this module in a live/production site until it is out of its alpha state. That announcement will come in future release notes and in the #webstandards Slack channel.
-        * When testing, do not enable this module alongside the current Webspark News & Events modules. This will likely lead to unexpected results. If you have those modules enabled, first do the following:
-            * Go to /import and delete any imported news and events items.
-            * Disable and uninstall the Webspark News & Events modules.
-        * If you have any questions or concerns about this process, please email webconsulting@asu.edu for assistance.
     * ASU Academic Programs (v2.3)
         * Added CHANGELOG.txt file to module
     * ASU DIRS (v1.10)
@@ -60,8 +53,6 @@ Webspark 1.55 (Oregon) release, 2018-07-27
 
 - Contrib module updates
 
-    NOTE: If you have 1) manually installed any of the following contrib modules in the /sites folder, and 2) the versions below are the same or newer, then delete them from the /sites directory and do a registry rebuild on the site ASAP to improve site performance.
-
     - Managed by Panopoly
 
     * Apps (v1.1)
@@ -86,15 +77,26 @@ Webspark 1.55 (Oregon) release, 2018-07-27
 
 - Contrib project deletions
 
-    If any of the following projects need to remain in your Webspark site, place a copy of those project directories in their appropriate end-user managed directories under /sites (ex. sites/all/themes, sites/all/libraries, or sites/all/modules).
-
     * Modernizr (module and library)
 
 - Webspark project deprecations
 
-    The following Webspark projects have been deprecated and will be removed in the next Webspark release.
-
     * Webspark Megamenu Academic Add-on
+
+- Experimental modules in Webspark
+
+    These experimental modules allow for the quick iteration of functionality that may be supported in an
+    upcoming release and receiving feedback from the community.
+
+    They are provided with Webspark for testing purposes, but are not yet fully supported. Do not use these modules in
+    a production site until they have been judged stable and moved out of the experimental category by UTO.
+
+    * ASU News & Events (v3.0-alpha1) - PLEASE READ THE FOLLOWING!
+        * This is an early alpha release of the replacement for the existing Webspark News & Events modules.
+        * Do not use this module in a live/production site until it is out of its alpha state. That announcement will come in future release notes and in the #webstandards Slack channel.
+        * When testing, do not enable this module alongside the current Webspark News & Events modules. This will likely lead to unexpected results. If you have those modules enabled, first do the following:
+            * Go to /import and delete any imported news and events items.
+            * Disable and uninstall the Webspark News & Events modules.
 
 
 Webspark 1.53.1 (Topeka) release, 2018-05-14
